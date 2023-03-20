@@ -48,8 +48,8 @@ void loop() {               // inicia el bucle del programa
   digitalWrite(segC, LOW);    // posar a 5V el pin 7
   digitalWrite(segD, HIGH);     // posar a 5V el pin 8
   digitalWrite(segE, HIGH);    // posar a 5V el pin 9
-  digitalWrite(segF, LOW);    // posar a 5V el pin 10
-  digitalWrite(segG, HIGH);    // posar a 5V el pin 11
+  digitalWrite(segF, HIGH);    // posar a 5V el pin 10
+  digitalWrite(segG, LOW);    // posar a 5V el pin 11
   
   delay(500);                  // es queden leds 500ms encesos  digitalWrite(segA, LOW);    // posar a 0V el pin 5
   digitalWrite(segA, HIGH);    // posar a 0V el pin 5
